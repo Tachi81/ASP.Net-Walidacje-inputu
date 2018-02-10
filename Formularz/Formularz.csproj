@@ -148,8 +148,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Formularz.cs" />
-    <Compile Include="Models\MojValidatorWieku.cs" />
+    <Compile Include="Validators\IsFirstLetterUpperCaseattribute.cs" />
+    <Compile Include="Validators\MojValidatorWieku.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validators\ValidatorOfPostCodeAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
